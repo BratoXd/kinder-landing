@@ -32,7 +32,7 @@ export default function KinderLanding() {
         <h2 className="text-3xl font-bold text-center mb-10">Costos y Niveles</h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {[
-            { fase: "Maternal 1", inscripcion: 1000, mantenimiento: 600, seguro: 600, colegiatura: 1200 },
+            { fase: "Maternal", inscripcion: 1000, mantenimiento: 600, seguro: 600, colegiatura: 1200 },
             { fase: "Preescolar", inscripcion: 1000, sep: 600, mantenimiento: 600, seguro: 600, colegiatura: 1200 },
             { fase: "Primaria", inscripcion: 1000, sep: 600, mantenimiento: 600, seguro: 600, colegiatura: 1200 },
           ].map((item, idx) => (
