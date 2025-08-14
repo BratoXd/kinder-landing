@@ -53,7 +53,7 @@ export default function KinderLanding() {
       {/* Beca Rita Cetina */}
       <section className="py-16 px-6 bg-yellow-50">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 items-center">
-          <img src="/images/RitaCetina.jpeg" alt="Beca Rita Cetina" className="rounded-lg shadow-lg" />
+          <img src="/images/RitaCetina2.jpeg" alt="Beca Rita Cetina" className="rounded-lg shadow-lg" />
           <div>
             <h2 className="text-3xl font-bold mb-4">Beca Rita Cetina</h2>
             <p className="text-lg mb-4">
