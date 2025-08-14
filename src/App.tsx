@@ -3,11 +3,11 @@ import React, { useState } from "react";
 export default function KinderLanding() {
   const [formData, setFormData] = useState({ nombre: "", telefono: "", nivel: "" });
 
-  const handleChange = (e) => {
+const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Formulario enviado:", formData);
     // Aquí puedes agregar lógica para guardar en tu BD o Google Sheets
